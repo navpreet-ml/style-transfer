@@ -9,9 +9,8 @@ from PIL import Image
 # For supressing warnings
 os.environ['TF_CPP_MIN_LOG_LEVEL'] = '2'
 
-st.write("""
-# Neural Art Style Transfer
-""")
+st.title("Neural Art Style Transfer")
+
 #display demo image
 st.image('demo_image.png')
 
@@ -101,7 +100,7 @@ if predict:
 
         final_image = tensor_to_image(stylized_image)
 
-    st.write('Resultant Image...')
+    st.write('Output Image')
     st.image(final_image)
 
     try:
