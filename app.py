@@ -130,5 +130,4 @@ if predict:
     except:
         pass
 
-st.write('Made by Kairav with \u2764\ufe0f.')
-st.write('Happy Coding.')
+
